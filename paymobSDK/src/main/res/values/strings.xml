@@ -1,0 +1,49 @@
+<resources>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="_1_your_info">1. Your info</string>
+    <string name="_2_payment">2. Payment</string>
+    <string name="_3_confirmation">3. Confirmation</string>
+    <string name="welcome_to_paymob">Welcome to Paymob</string>
+    <string name="continue_with_facebook">Continue with facebook</string>
+    <string name="or">OR</string>
+    <string name="guest_checkout">Guest Checkout</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    <string name="please_add_your_mobile_number_to_continue">Please add your mobile number to continue</string>
+    <string name="continue_">Continue</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="payment_details">Payment details</string>
+    <string name="edit">Edit</string>
+    <string name="add_new_card">Add new card</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="submit_and_pay">Submit and pay</string>
+    <string name="enter_card_cvv_to_proceed">Enter card CVV to proceed</string>
+    <string name="card_number">Card number</string>
+    <string name="card_holder_name">Card holder name</string>
+    <string name="expiry_date_mm_yy">Expiry date MM/YY</string>
+    <string name="cvv">CVV</string>
+    <string name="remember_this_card_for_future_use">Remember this card for future use</string>
+    <string name="add_card">Add card</string>
+    <string name="payment_successful">Payment successful!</string>
+    <string name="done">Done</string>
+    <string name="payment_failed">Payment failed</string>
+    <string name="insufficient_funds">Insufficient funds</string>
+    <string name="cancel">Cancel</string>
+    <string name="try_again">Try again</string>
+    <string name="got_it">Got it</string>
+    <string name="payment_failed_">Payment failed.</string>
+    <string name="this_session_has_ended">This session has ended.</string>
+    <string name="the_payment_session_ends_after_3_unsuccessful_trials_you_will_be_redirected_to_the_website_you_can_start_a_new_checkout_session_with_paymob">The payment session ends after 3 unsuccessful trials. You will be redirected to the website. You can start a new checkout session with Paymob.</string>
+    <string name="wallet_payment_details">Wallet payment details</string>
+    <string name="your_name">Your name</string>
+    <string name="phone_number">+20 Phone number</string>
+    <string name="close">close</string>
+</resources>

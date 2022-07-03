@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bit68.paymobsdk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <activity
+            android:name="com.bit68.paymobsdk_.view.CardWebviewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.bit68.paymobsdk_.view.FirstActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.bit68.paymobsdk_.view.MainActivitysssss"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Paymobsdk.NoActionBar" />
+        <activity
+            android:name="com.bit68.paymobsdk_.view.WelcomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Paymobsdk.NoActionBar" />
+        <activity
+            android:name="com.bit68.paymobsdk_.view.WalletDetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Paymobsdk.NoActionBar" />
+        <activity
+            android:name="com.bit68.paymobsdk_.view.SuccessActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Paymobsdk.NoActionBar" />
+        <activity
+            android:name="com.bit68.paymobsdk_.view.SessionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Paymobsdk.NoActionBar" />
+        <activity
+            android:name="com.bit68.paymobsdk_.view.PaymentMerthodsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Paymobsdk.NoActionBar" />
+        <activity
+            android:name="com.bit68.paymobsdk_.view.PaymentDetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Paymobsdk.NoActionBar" />
+        <activity
+            android:name="com.bit68.paymobsdk_.view.NewCardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Paymobsdk.NoActionBar" />
+        <activity
+            android:name="com.bit68.paymobsdk_.view.FailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Paymobsdk.NoActionBar" />
+        <activity
+            android:name="com.bit68.paymobsdk_.view.CompleteLoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Paymobsdk.NoActionBar" />
+    </application>
+
+</manifest>

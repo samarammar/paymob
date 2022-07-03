@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">paymobsdk</string>
+    <string name="checkout_with">Checkout with</string>
+</resources>

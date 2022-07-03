@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/logo_action_bar">
+    </include>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        android:id="@+id/session_layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:id="@+id/iv_fail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/session_faild"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/tv_fail_sess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_failed_"
+            app:layout_constraintTop_toBottomOf="@+id/iv_fail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/tv_reason_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/this_session_has_ended"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"
+
+            app:layout_constraintTop_toBottomOf="@+id/tv_fail_sess"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+        <TextView
+            android:id="@+id/tv_reason_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/the_payment_session_ends_after_3_unsuccessful_trials_you_will_be_redirected_to_the_website_you_can_start_a_new_checkout_session_with_paymob"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/tv_reason_"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btn_gotit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/got_it"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/paymob_border"
+        android:textStyle="bold"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
