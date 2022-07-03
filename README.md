@@ -48,3 +48,7 @@ To add your own checkout Paymob Button
         app:layout_constraintTop_toTopOf="parent" />
 ```
 
+Don't forget to use this Drawable in your button
+
+![paymobcheckout](https://user-images.githubusercontent.com/18355185/177026790-4ec884b8-c83b-4da4-a6c1-f2c21d4fc56b.png)
+
